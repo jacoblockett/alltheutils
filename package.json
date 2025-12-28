@@ -22,6 +22,10 @@
 		"underscore"
 	],
 	"author": "Jacob Lockett",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jacoblockett/alltheutils.git"
+	},
 	"license": "MIT",
 	"files": [
 		"dist/",
