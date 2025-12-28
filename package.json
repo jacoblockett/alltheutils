@@ -1,0 +1,37 @@
+{
+	"name": "alltheutils",
+	"version": "0.1.0",
+	"description": "A utility library with functions I'd rather not recreate if I can help it.",
+	"main": "dist/index.cjs",
+	"module": "dist/index.mjs",
+	"exports": {
+		"require": "./dist/index.cjs",
+		"import": "./dist/index.mjs"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"keywords": [
+		"utility",
+		"utilities",
+		"util",
+		"utils",
+		"tools",
+		"lodash",
+		"underscore"
+	],
+	"author": "Jacob Lockett",
+	"license": "MIT",
+	"files": [
+		"dist/",
+		"LICENSE",
+		"README.md"
+	],
+	"packageManager": "pnpm@10.21.0",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^29.0.0",
+		"@rollup/plugin-node-resolve": "^16.0.3",
+		"rollup": "^4.54.0"
+	}
+}
